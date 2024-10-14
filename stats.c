@@ -72,7 +72,7 @@ void print_statistics(unsigned char* array, int length)
   max = find_maximum(array, length);
   min = find_minimum(array, length);
 
-  printf("----------ARRAY STATISTICS REPORT----------\n\n\tMedian = %3d\n\tMean = %3d\n\tMaximum = %3d\n\tMinimum = %3d\n----------END OF CURRENT REPORT----------\n", median, mean, max, min);
+  printf("----------ARRAY STATISTICS REPORT----------\n\n\tMedian = %3d\n\tMean = %3d\n\tMaximum = %3d\n\tMinimum = %3d\n\n----------END OF CURRENT REPORT----------\n", median, mean, max, min);
 }
 
 unsigned char find_median(unsigned char* array, int length)
