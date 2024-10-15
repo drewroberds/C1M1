@@ -40,9 +40,12 @@ void main() {
   /* Other Variable Declarations Go Here */
 
   /* Statistics and Printing Functions Go Here */
-
+  printf("Before Sort:\n");
+  print_array(test, SIZE);
   print_statistics(test, SIZE);
-  sort_array(test, SIZE);
+  //sort_array(test, SIZE);
+  printf("\nAfter Sort:\n");
+  print_array(test, SIZE);
 
 }
 
